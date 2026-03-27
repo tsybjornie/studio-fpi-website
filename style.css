@@ -1651,4 +1651,26 @@ details[open] .faq-question::after {
   .hero-title {
     font-size: 2.5rem;
   }
+}@media (max-width: 768px) {
+  .hero-title, .section-heading, .section-label, .body-text, .process-title, .process-desc {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit-btn, .whatsapp-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .works-cta, .contact-direct {
+    text-align: center;
+    align-items: center;
+  }
+  .philosophy-stats {
+    text-align: center;
+  }
 }
